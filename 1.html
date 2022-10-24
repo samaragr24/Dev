@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Clase 5</title>
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+  </head>
+
+  <style>
+    html,
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background-color: #f7f7f7;
+    }
+
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #info {
+      display: flex;
+    }
+
+    #aside {
+      flex: 2;
+      background: rgb(216, 151, 228);
+    }
+
+    #section {
+      flex: 6;
+      background: rgb(255, 202, 211);
+      padding-right: 20%;
+    }
+    .maincontentimg {
+      width: 80%;
+    }
+
+    #footer {
+      display: flex;
+      padding: o 20px 20px 20px;
+      margin-top: auto;
+      background: white;
+    }
+
+    .footer_section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  </style>
+
+  <body>
+    <header id="header">
+      <h1>
+        Clase 5
+        <p>Seleccionadores</p>
+      </h1>
+    </header>
+
+    <nav id="nav">Menú</nav>
+
+    <div id="info">
+      <aside id="aside">Links relacionados</aside>
+      <section id="section">
+        <img src="tacos.jpg" alt="tacos" class="maincontentimg" />
+        <h4>Tipos</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+          voluptate nam! Itaque autem blanditiis nobis, culpa impedit, repellat
+          nulla sint id facilis iste voluptatum necessitatibus adipisci officiis
+          numquam aliquam neque?
+        </p>
+
+        <h4>Salsas</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+          aliquam cupiditate non neque eveniet quisquam provident tempora,
+          praesentium enim ipsum vitae expedita vero quis laudantium corrupti
+          maxime molestiae quam dolor.
+        </p>
+      </section>
+    </div>
+
+    <footer id="footer">
+      <div id="footer_section">
+        <h2>Mis redes</h2>
+        <i class="lni lni-instagram"></i>
+      </div>
+      <div id="footer_section">
+        <h2>Contacto</h2>
+      </div>
+      <div id="footer_section">
+        <h2>Otros sitios</h2>
+      </div>
+    </footer>
+  </body>
+</html>
